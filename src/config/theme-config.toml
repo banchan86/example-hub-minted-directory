@@ -1,5 +1,5 @@
 [general]
-title = "Minted Directory"
+title = "Bonsai Examples Hub"
 logo = ""
 iconLogo = "tabler:leaf"
 
@@ -9,13 +9,13 @@ description = "Find the best nuxt starter kits."
 url = "https://nuxtstarters.com"
 
 [directory.search]
-placeholder = "Search among {0} tools"
+placeholder = "Search among {0} workflows"
 showCount = true
-icon = "tabler:bow"
+icon = "tabler:search"
 
 [directory.search.tags]
-display = "select"   # options: none,select,show-all
-intersection = false
+display = "show-all"   # options: none,select,show-all
+intersection = true
 
 [directory.grid]
 list = false
@@ -59,45 +59,33 @@ color = "green"
 key = "timer"
 
 [header.banner]
-show = true
-text = "Follow mark_bruderer on twitter."
-link = "https://x.com/intent/follow?screen_name=mark_bruderer"
-brandText = "BestMeditationApps"
+show = false
+text = ""
+link = ""
+brandText = ""
 
 [header.navbar]
 colorModeSelector = true
 
 [[header.navbar.links]]
-name = "Analytics"
-href = "https://us.posthog.com/shared/vHlGCcSqPjGH4r_QijaXSETtmN9J-g"
+name = "Install Bonsai"
+href = "https://bonsai-rx.org/"
 target = "_blank"
 
 [header.actionButton]
-text = "Submit a starter"
+text = "Submit a workflow"
 href = "/submit"
 
 [footer]
-description = "Best directory for my niche."
+description = "Website for Bonsai workflow examples."
 
 [footer.socials.github]
-link = ""
+link = "https://github.com/bonsai-rx"
 icon = "tabler:brand-github"
 
-[footer.socials.facebook]
-link = ""
-icon = "tabler:brand-facebook"
-
-[footer.socials.instagram]
-link = ""
-icon = "tabler:brand-instagram"
-
-[footer.socials.x]
-link = "https://x.com/mark_bruderer"
-icon = "tabler:brand-twitter"
-
-[footer.socials.youtube]
-link = "https://www.youtube.com/@mark_hacks"
-icon = "tabler:brand-youtube"
+[footer.socials.discord]
+link = "https://discord.gg/QcthRPuZnr"
+icon = "tabler:brand-discord"
 
 [ui.icons]
 dark = "tabler:moon"
