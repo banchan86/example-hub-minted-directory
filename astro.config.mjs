@@ -14,6 +14,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://bestmeditationapps.com",
+  site: "https://banchan86.github.io/example-hub-minted-directory/",
   integrations: [vue(), tailwind(), themeConfig(), mdx(), icon(), sitemap()],
 });
