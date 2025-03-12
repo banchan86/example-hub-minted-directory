@@ -45,17 +45,14 @@ labelForCard = "Featured ✨"
 title = "{0} Apps"
 
 [[directory.tags]]
-key = "freemium"
-name = "Freemium"
-color = "blue"
-
-[[directory.tags]]
-key = "guided_meditations"
-name = "Guided Meditations"
+key = "neuroscience"
+name = "Neuroscience"
 color = "green"
 
 [[directory.tags]]
-key = "timer"
+key = "robotics"
+name = "Robotics"
+color = "blue"
 
 [header.banner]
 show = false

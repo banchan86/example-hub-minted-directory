@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/Card.astro
-title: Example Listing
+title: Example Listing 2
 description: This is an example listing to get you started.
 tags:
-  - robotics
+  - neuroscience
 links:
   -
     name: "test"

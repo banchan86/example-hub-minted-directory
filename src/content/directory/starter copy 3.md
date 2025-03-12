@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Card.astro
-title: Example Listing
+title: Example Listing 3
 description: This is an example listing to get you started.
 tags:
   - robotics
