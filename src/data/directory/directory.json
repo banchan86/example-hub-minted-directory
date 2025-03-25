@@ -10,7 +10,8 @@
       "meditation"
     ],
     "description": "Offers guided meditations, sleep stories, and calming music to help users relax and improve sleep.",
-    "link": "https://minteddirectory.com"
+    "link": "https://minteddirectory.com",
+    "tags": ["code"]
   },
   {
     "id": "headspace",
@@ -22,14 +23,16 @@
       "meditation"
     ],
     "description": "Provides a variety of guided meditations, sleep content, and mindfulness exercises for daily use.",
-    "link": "https://minteddirectory.com"
+    "link": "https://minteddirectory.com",
+    "tags": ["visual"]
   },
   {
     "id": "insight-timer",
     "title": "Insight Timer",
     "image": "",
     "description": "Features a vast library of guided meditations, talks, and music tracks from teachers worldwide.",
-    "link": "https://minteddirectory.com"
+    "link": "https://minteddirectory.com",
+    "tags": ["visual", "code"]
   },
   {
     "id": "buddhify",
