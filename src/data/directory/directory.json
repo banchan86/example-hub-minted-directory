@@ -2,7 +2,11 @@
   {
     "id": "calm",
     "title": "Calm",
+<<<<<<< HEAD
     "image": "../images/cloudflare.png",
+=======
+    "card_image": "../images/cloudflare.png",
+>>>>>>> 6b53732 (Shorten list of examples)
     "description": "Offers guided meditations, sleep stories, and calming music to help users relax and improve sleep.",
     "link": "https://minteddirectory.com",
     "tags": ["code"]
@@ -10,7 +14,11 @@
   {
     "id": "headspace",
     "title": "Headspace",
+<<<<<<< HEAD
     "image": "",
+=======
+    "card_image": "../images/cloudflare.png",
+>>>>>>> 6b53732 (Shorten list of examples)
     "description": "Provides a variety of guided meditations, sleep content, and mindfulness exercises for daily use.",
     "link": "https://minteddirectory.com",
     "tags": ["visual"]
@@ -18,6 +26,7 @@
   {
     "id": "insight-timer",
     "title": "Insight Timer",
+<<<<<<< HEAD
     "image": "",
     "description": "Features a vast library of guided meditations, talks, and music tracks from teachers worldwide.",
     "link": "https://minteddirectory.com",
@@ -141,5 +150,11 @@
     "image": "",
     "description": "Offers a variety of meditation techniques, including breathwork, sound baths, and guided journeys.",
     "link": "https://minteddirectory.com"
+=======
+    "card_image": "../images/cloudflare.png",
+    "description": "Features a vast library of guided meditations, talks, and music tracks from teachers worldwide.",
+    "link": "https://minteddirectory.com",
+    "tags": ["visual", "code"]
+>>>>>>> 6b53732 (Shorten list of examples)
   }
 ]
