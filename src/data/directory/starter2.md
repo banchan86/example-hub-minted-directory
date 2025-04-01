@@ -5,6 +5,7 @@ tags:
   - neuroscience
   - code
 link: https://test.com
+image: "../images/reactive-accumulate-example-darkmode-inkscape.svg"
 ---
 
 ## h2 Heading
