@@ -104,10 +104,7 @@ const footerSchema = z.object({
   description: z.string(),
   socials: z.object({
     github: z.object({ link: z.string(), icon: z.string() }),
-    facebook: z.object({ link: z.string(), icon: z.string() }),
-    instagram: z.object({ link: z.string(), icon: z.string() }),
-    x: z.object({ link: z.string(), icon: z.string() }),
-    youtube: z.object({ link: z.string(), icon: z.string() }),
+    discord: z.object({ link: z.string(), icon: z.string() }),
   }),
 });
 
