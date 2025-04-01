@@ -5,7 +5,7 @@ tags:
   - neuroscience
   - signal
 link: "https://test.com"
-image: "../images/language-samplegrayscale.svg"
+image: "../images/test-bonsai-workflow-inkscape.svg"
 ---
 
 Welcome
