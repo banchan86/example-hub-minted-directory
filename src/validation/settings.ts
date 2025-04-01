@@ -42,11 +42,8 @@ const headerSchema = z.object({
 const footerSchema = z.object({
   description: z.string(),
   socials: z.object({
-    github: z.object({ link: z.string() }).optional(),
-    facebook: z.object({ link: z.string() }).optional(),
-    instagram: z.object({ link: z.string() }).optional(),
-    x: z.object({ link: z.string() }).optional(),
-    youtube: z.object({ link: z.string() }).optional(),
+    github: z.object({ link: z.string(), icon: z.string() }),
+    discord: z.object({ link: z.string(), icon: z.string() }),
   }),
 });
 

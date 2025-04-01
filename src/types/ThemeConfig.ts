@@ -78,19 +78,7 @@ export interface ThemeConfig {
         link: string;
         icon: string;
       };
-      facebook: {
-        link: string;
-        icon: string;
-      };
-      instagram: {
-        link: string;
-        icon: string;
-      };
-      x: {
-        link: string;
-        icon: string;
-      };
-      youtube: {
+      discord: {
         link: string;
         icon: string;
       };
