@@ -2,7 +2,7 @@
 title: Markdown Demo
 description: This is an example listing to get you started.
 tags:
-  - visual
+  - neuroscience
   - code
 link: https://test.com
 ---

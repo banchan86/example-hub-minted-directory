@@ -1,10 +1,11 @@
 ---
-title: Cafe Condesa
-description: This is an example listing to get you started.
+title: Downsample
+description: Using `Average` to downsample a signal
 tags:
-  - visual
+  - neuroscience
+  - signal
 link: "https://test.com"
-image: ../images/calm.png
+image: "../images/language-samplegrayscale.svg"
 ---
 
 Welcome
