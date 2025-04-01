@@ -1,6 +1,6 @@
 [general]
 title = "Bonsai Examples Hub"
-logo = ""
+logo = "../../bonsai/template/logo.svg"
 iconLogo = "tabler:coffee"
 
 [general.seo]
@@ -20,9 +20,9 @@ links = "default"
 # table = "Table Name"
 
 [directory.search]
-placeholder = "Search among {0} agent frameworks"
+placeholder = "Search among {0} workflows"
 showCount = true
-icon = "tabler:bow"
+icon = "tabler:search"
 
 [directory.search.tags]
 display = "show-all" # options: none,select,show-all

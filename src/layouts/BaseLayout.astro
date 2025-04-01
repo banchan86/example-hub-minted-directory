@@ -1,6 +1,7 @@
 ---
 import "@fontsource/gabarito";
 import AppShell from "../components/app/AppShell.astro";
+import FavIcon from '../bonsai/template/favicon.ico';
 import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
 
@@ -17,7 +18,7 @@ const calculatedTitle = title || siteTitle;
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={FavIcon} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="generator" content={Astro.generator} />
     <title>{calculatedTitle}</title>
