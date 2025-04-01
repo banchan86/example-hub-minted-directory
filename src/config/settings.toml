@@ -3,11 +3,7 @@
 theme = 'brookmint'
 
 [general]
-<<<<<<< HEAD
-title = "Meditation Apps"
-=======
 title = "Bonsai Examples Hub"
->>>>>>> 798a89d (Modify directory settings.toml to remove unused bits)
 logo = ""
 iconLogo = "tabler:coffee"
 

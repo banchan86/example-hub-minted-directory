@@ -1,15 +1,16 @@
 ---
 import { Icon } from "astro-icon/components";
+import SiteLogo from "../../bonsai/template/logo.svg"
 import config from "@util/themeConfig";
 ---
 
-<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+<a href="/" class="flex items-center space-x-1 rtl:space-x-reverse">
   {
     config.general.logo ? (
       <img
         sizes="32px"
-        src={config.general.logo}
-        class="h-8"
+        src={SiteLogo.src}
+        class="h-16"
         alt={config?.general.title + " Logo"}
       />
     ) : (
