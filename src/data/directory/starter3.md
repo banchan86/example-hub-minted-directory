@@ -2,7 +2,7 @@
 title: Example Listing
 description: This is an example listing to get you started.
 tags:
-  - visual
+  - code
 link: https://test.com
 ---
 
