@@ -58,13 +58,13 @@ labelForCard = "Featured ✨"
 title = "{0} Frameworks"
 
 [[directory.tags]]
-key = "code"
-name = "Code Based"
+key = "neuroscience"
+name = "Neuroscience"
 color = "blue"
 
 [[directory.tags]]
-key = "visual"
-name = "Visual Based"
+key = "signal"
+name = "Signal Processing"
 color = "green"
 
 [header.banner]
