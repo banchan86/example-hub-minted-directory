@@ -12,88 +12,32 @@ name = "Bonsai Example Hub"
 description = "Example Workflows for the Bonsai-Rx Language"
 url = "https://banchan86.github.io/example-hub-minted-directory/"
 
-[directory.data]
-source = "default"  # default, mock, sheets, json
-links = "default"
+[directoryData.source]
+name = "default"    # default, mock, sheets, json
+links = "normal"
 
 [directoryData.tagPages]
 title = "{0} Apps"
 
 [directoryData.search]
-placeholder = "Search among {0} listings of this directory :)"
-
-[directory.search]
 placeholder = "Search among {0} workflows"
-showCount = true
-icon = "tabler:search"
-
-[directory.search.tags]
-display = "show-all" # options: none,select,show-all
-intersection = false
-
-[directory.grid]
-list = false
-type = ""
-
-[directory.grid.emptyState]
-text = "Seems that this entry is missing from the archives."
-type = "button"                                              # options: button, simple, link
-icon = "tabler:exclamation-mark"
-
-[directory.grid.card]
-image = true
-border = "shadow" # options: dashed, shadow, outline
-
-[directory.grid.submit]
-show = true
-first = false
-title = "Submit a template"
-description = "Submit a template to show off a good project to other people."
-hideable = true
-
-[directory.featured]
-showOnAllPages = true
-showOnSide = true
-icon = "tabler:star"
-labelForCard = "Featured ✨"
 
 [directory.tagPages]
 title = "{0} Frameworks"
 
-[[directory.tags]]
+[[directoryData.tags]]
 key = "neuroscience"
 name = "Neuroscience"
 color = "blue"
 emoji = "👃"
 description = "Breathing techniques are a popular feature in meditation apps."
 
-[[directory.tags]]
+[[directoryData.tags]]
 key = "signal"
 name = "Signal Processing"
 color = "green"
 emoji = "💤"
 description = "Some apps include music that slowly goes away to help you sleep better and rest."
-
-[[directoryData.tags]]
-key = "meditation"
-name = "Meditation"
-color = "purple"
-emoji = "🧘‍♂️"
-description = "A meditation for your life. It's a great way to relax and clear your mind. It's also a great way to improve your sleep."
-
-[[directoryData.tags]]
-key = "yoga"
-name = "Yoga"
-color = "purple"
-emoji = "🧘‍♂️"
-description = "A yoga for your life."
-
-[[directoryData.tags]]
-key = "timer"
-name = "Timer"
-color = "green"
-emoji = "⏰"
-description = "Timers can be used to track how much you meditate."
 
 [header.banner]
 show = false
@@ -123,7 +67,3 @@ icon = "tabler:brand-github"
 [footer.socials.discord]
 link = "https://discord.gg/QcthRPuZnr"
 icon = "tabler:brand-discord"
-
-[ui.icons]
-dark = "tabler:moon"
-light = "tabler:sun"
